@@ -1,0 +1,1492 @@
+@import url("normolize.css");
+@import url("fonts.css");
+.wrapper {
+  max-width: 1438px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-left: 82px;
+  padding-right: 6.95%;
+  background-color: #000000;
+}
+
+.main_navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  justify-items: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 83px;
+  text-transform: uppercase;
+}
+
+.main_navigation--logo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: 'FuturaDemiC';
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #E3B873;
+}
+
+.main_navigation--list {
+  margin-left: 21px;
+  margin-top: 19px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 592px;
+  list-style: none;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.main_navigation--item {
+  display: inline-block;
+}
+
+.main_navigation--link {
+  padding: 0 5px;
+  font-family: 'FuturaBookC';
+  font-size: 14px;
+  line-height: 16px;
+  color: #E3B873;
+  text-decoration: none;
+}
+
+.main_navigation--call {
+  margin-top: 2px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.main_navigation_call--link {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-right: 40px;
+  font-family: 'FuturaDemiC';
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #E3B873;
+}
+
+.main_navigation_call--button {
+  padding: 11px 33px;
+  font-size: 13px;
+  line-height: 15px;
+  font-family: 'FuturaDemiC';
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #E3B873;
+  -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+          box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  border-width: 0;
+}
+
+.service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000000;
+}
+
+.service-insta_wrap {
+  width: 82px;
+  position: relative;
+}
+
+.service-insta_link {
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #E3B873;
+  top: 300px;
+}
+
+.service-inner {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 194px 0 208px 60px;
+  background: url("assets/img/service-bg.jpg") no-repeat;
+  background-size: contain;
+}
+
+.service-title {
+  margin: 0;
+  width: 600px;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.service--city {
+  color: #E3B873;
+}
+
+.service-text {
+  margin: 0;
+  margin-top: 12px;
+  font-family: FuturaBookC;
+  font-size: 22px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.service--buttons {
+  margin-top: 47px;
+}
+
+.service--button_type2 {
+  width: 207px;
+  height: 51px;
+  padding: 0;
+  background: #E3B873;
+  -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+          box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+  border: 0;
+  border-radius: 2px;
+  font-family: 'FuturaDemiC';
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.service--button_type2-transparent {
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.service--button_type2:first-child {
+  margin-right: 16px;
+}
+
+.service .scroll_wrap {
+  position: absolute;
+  padding: 40px 96px 39px 48px;
+  background: #000000;
+  bottom: -49px;
+  left: -82px;
+}
+
+.service .scroll_arrow {
+  position: relative;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.service .scroll_arrow::after {
+  content: url("assets/img/scroll-arrow-down.svg");
+  position: absolute;
+  right: -48px;
+  top: -5px;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 106px 0 52px 101px;
+  background-color: #000000;
+}
+
+.projects--block1 {
+  width: 440px;
+  padding-top: 70px;
+}
+
+.projects--title {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.projects--title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-bottom: 1px solid #E3B873;
+  bottom: 20px;
+  width: 90px;
+  right: -100px;
+}
+
+.projects--description {
+  margin: 0;
+  margin-top: 21px;
+  font-family: 'FuturaBookC';
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.projects--list {
+  padding: 0;
+  margin-top: 45px;
+}
+
+.projects--item {
+  padding: 0;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 190px 190px;
+      grid-template-columns: 190px 190px;
+  -ms-grid-rows: 107px 55px;
+      grid-template-rows: 107px 55px;
+  font-family: 'FuturaBookC';
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.projects--param {
+  margin: 0;
+  margin-bottom: 37px;
+}
+
+.projects--heading {
+  display: block;
+  margin-bottom: 6px;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.projects--block2 {
+  margin-left: 52px;
+}
+
+.projects--pagination {
+  margin-top: 83px;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pagination--link-circle {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  margin: 0 9px;
+}
+
+.pagination--link-arrow_left {
+  margin-right: 21px;
+}
+
+.pagination--link-arrow_right {
+  margin-left: 21px;
+}
+
+.pagination--link-active {
+  background: #ffffff;
+}
+
+.examples--list {
+  margin: 0;
+  padding: 0;
+}
+
+.examples--item {
+  display: inline-block;
+  margin-right: 58px;
+}
+
+.examples--link {
+  padding-bottom: 7px;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.examples--link:hover {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.examples--link-active {
+  color: #E3B873;
+  border-bottom: 1px solid #E3B873;
+}
+
+.examples--gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 35px;
+}
+
+.examples--gallery_arrow {
+  margin-left: 67px;
+  margin-bottom: 17px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: url("assets/img/examples-gallery-right-arrow.png") no-repeat, #E3B873;
+  background-position: 23px 17px;
+}
+
+.examples--gallery_arrow:hover {
+  background-color: #e3b87399;
+}
+
+.gallery {
+  padding: 0;
+  list-style: none;
+}
+
+.online {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 130px;
+  background-image: linear-gradient(#000000 345px, #ffffff 345px);
+}
+
+.online--title {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.online--title::after {
+  content: url("assets/img/online-icon.png");
+  display: block;
+  margin-top: 13px;
+  margin-bottom: 2px;
+}
+
+.online--text {
+  font-family: 'FuturaBookC';
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #363636;
+}
+
+.online--text::before {
+  content: "";
+  display: block;
+  margin: 42px auto 27px auto;
+  width: 55px;
+  border-top: 1.5px solid #E3B873;
+}
+
+.online--form {
+  width: 770px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.online--form_label {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #3636364d;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.online--form_submit {
+  margin-top: 8px;
+}
+
+.online--form_checkbox {
+  margin: 0 auto;
+  margin-top: 17px;
+}
+
+.online--form_text_input {
+  width: 231px;
+  color: #000000;
+}
+
+.form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form--header {
+  margin: 0;
+}
+
+.form--label-border {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #3636364d;
+}
+
+.form_checkbox {
+  margin: 0 auto;
+}
+
+.form_checkbox span {
+  display: inline-block;
+  text-align: center;
+}
+
+.form--text_input {
+  display: block;
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+}
+
+.form--text_input::-webkit-input-placeholder {
+  font-family: 'FuturaBookC';
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.form--text_input:-ms-input-placeholder {
+  font-family: 'FuturaBookC';
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.form--text_input::-ms-input-placeholder {
+  font-family: 'FuturaBookC';
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.form--text_input::placeholder {
+  font-family: 'FuturaBookC';
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.form--submit {
+  font-family: 'FuturaDemiC';
+  font-size: 15px;
+  line-height: 26px;
+  padding: 13px 75px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #E3B873;
+  border: 0;
+  -webkit-box-shadow: 0px 15px 15px #e3b87326;
+          box-shadow: 0px 15px 15px #e3b87326;
+  border-radius: 2px;
+}
+
+.form--checkbox_label {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.form--checkbox {
+  width: 0;
+  position: relative;
+}
+
+.form--checkbox span {
+  color: #000000;
+}
+
+.form--checkbox:checked::after {
+  content: url("assets/img/form-checked-icon.svg");
+  position: absolute;
+  top: 0px;
+  left: -21px;
+}
+
+.form--checkbox::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: -25px;
+  width: 18px;
+  height: 18px;
+  background: #E3B873;
+  border-radius: 1px;
+}
+
+.threecol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: top;
+      align-content: top;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.threecol--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.threecol--description {
+  position: absolute;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #FFFFFF;
+  text-align: left;
+}
+
+.threecol--title {
+  margin: 0;
+}
+
+.threecol--button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 228px;
+  height: 54px;
+  position: relative;
+  background: #E3B873;
+  -webkit-box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.1);
+          box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.1);
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.threecol--button:hover {
+  color: #000000;
+}
+
+.types {
+  padding: 0 85px 200px 85px;
+}
+
+.types--title {
+  padding-top: 0px;
+  text-align: center;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+}
+
+.types--title::after {
+  content: url("assets/img/rep-types-icon.png");
+  display: block;
+  margin-top: 15px;
+}
+
+.types--threecol {
+  margin-top: 25px;
+}
+
+.types--threecol_title {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+}
+
+.types--description {
+  width: 330px;
+  top: 295px;
+  padding: 22px 33px 0 33px;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.031);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.031);
+}
+
+.types--list {
+  padding-left: 16px;
+  margin-top: 6px;
+  margin-bottom: 0;
+  font-family: 'FuturaBookC';
+  font-size: 15px;
+  line-height: 26px;
+  color: #959595;
+  list-style: none;
+}
+
+.types--list_item {
+  position: relative;
+}
+
+.types--list_item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 4px;
+  height: 4px;
+  left: -13px;
+  top: 10px;
+  background-color: #959595;
+  border: 1px solid #959595;
+  border-radius: 50%;
+}
+
+.types--button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 228px;
+  height: 54px;
+  top: 29px;
+  left: -33px;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #E3B873;
+  -webkit-box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+          box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  text-decoration: none;
+}
+
+.types--button:hover {
+  color: #000000;
+}
+
+.prerep {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #FFFFFF;
+  padding: 100px 100px 92px 0;
+}
+
+.prerep--save {
+  display: inline-block;
+  width: 350px;
+  margin-top: 28px;
+  margin-left: 12px;
+  font-family: 'FuturaDemiC';
+  font-size: 20px;
+  line-height: 25px;
+  color: #E3B873;
+  text-shadow: 0px 3px 10px #e3b87326;
+}
+
+.prerep--save::before {
+  content: url("assets/img/prerep-save-icon.png");
+  float: left;
+  margin-right: 5px;
+}
+
+.form_prerep {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 118px;
+  padding: 5px 49px 27px 49px;
+  background: #131313;
+  -webkit-box-shadow: 0px 30px 30px #0000000d;
+          box-shadow: 0px 30px 30px #0000000d;
+}
+
+.form_prerep--title {
+  display: block;
+  width: 293px;
+  font-family: 'FuturaDemiC';
+  font-size: 20px;
+  line-height: 25px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.form_prerep--label {
+  margin-top: 45px;
+}
+
+.form_prerep--label:nth-child(2) {
+  margin-top: 18px;
+}
+
+.form_prerep--label:nth-child(5) {
+  margin-top: 18px;
+  margin-left: 25px;
+  color: #ffffff;
+}
+
+.form_prerep--span {
+  font-family: 'FuturaBookC';
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.form_prerep--text {
+  width: 408px;
+  font-family: 'FuturaMediumC';
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.form_prerep--text::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.form_prerep--text:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.form_prerep--text::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.form_prerep--text::placeholder {
+  color: #ffffff;
+}
+
+.form_prerep--submit {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 213px;
+  height: 51px;
+  margin-top: 39px;
+  background: #E3B873;
+  -webkit-box-shadow: 0px 5px 15px #e3b87326;
+          box-shadow: 0px 5px 15px #e3b87326;
+  border: 0;
+  font-family: 'FuturaDemiC';
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.form_prerep--submit:hover {
+  color: #000000;
+}
+
+.proposal {
+  min-height: 745px;
+  padding: 0px 0px 20px 150px;
+  background: url("assets/img/measure-bg.png") no-repeat;
+  background-position-y: 12px;
+}
+
+.proposal--item {
+  position: relative;
+  margin-left: 265px;
+  letter-spacing: 0.7px;
+}
+
+.proposal--item:nth-child(1) {
+  top: 130px;
+}
+
+.proposal--item:nth-child(1)::before {
+  top: 0px;
+  left: -60px;
+}
+
+.proposal--item:nth-child(1)::after {
+  content: "01";
+  top: 8px;
+}
+
+.proposal--item:nth-child(2) {
+  top: 213px;
+  left: 75px;
+}
+
+.proposal--item:nth-child(2)::before {
+  top: -9px;
+  left: -60px;
+}
+
+.proposal--item:nth-child(2)::after {
+  content: "02";
+  top: 0px;
+}
+
+.proposal--item:nth-child(3) {
+  top: 358px;
+  left: 98px;
+}
+
+.proposal--item:nth-child(3)::before {
+  top: -10px;
+  left: -58px;
+}
+
+.proposal--item:nth-child(3)::after {
+  content: "03";
+  top: 0px;
+}
+
+.proposal--item:nth-child(4) {
+  top: 490px;
+  left: 32px;
+}
+
+.proposal--item:nth-child(4)::before {
+  top: 0px;
+  left: -58px;
+}
+
+.proposal--item:nth-child(4)::after {
+  content: "04";
+  top: 8px;
+}
+
+.proposal--item::before {
+  content: "";
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #E3B873;
+}
+
+.proposal--item::after {
+  position: absolute;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  left: -50px;
+}
+
+.styles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 102px 0 99px;
+  color: white;
+  background: linear-gradient(white 0px, white 112px, rgba(0, 0, 0, 0.75) 112px, rgba(0, 0, 0, 0.9) 976px, white 976px, white 1075px), url("assets/img/styles-bg.jpg") no-repeat;
+  background-position: 0, 0 113px;
+}
+
+.styles--title {
+  margin-top: 250px;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.styles--list {
+  margin-top: 40px;
+  padding: 0;
+  list-style: none;
+}
+
+.styles--item {
+  margin-bottom: 22px;
+  font-family: 'Proxima Nova';
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.styles--link {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.styles--link:hover {
+  color: #E3B873;
+}
+
+.styles--link-active {
+  color: #E3B873;
+  border-bottom: 1px solid #E3B873;
+}
+
+.styles--gallery {
+  width: 752px;
+}
+
+.styles--block-first {
+  height: 947px;
+  padding-top: 70px;
+}
+
+.styles--block-second {
+  height: 940px;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gallery--block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.design {
+  padding: 95px 88px 265px;
+  background: yellowgreen;
+}
+
+.design--title {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+}
+
+.design--title::after {
+  content: url("assets/img/design-icon.png");
+  display: block;
+  margin-top: 10px;
+}
+
+.design--text {
+  margin-top: 15px;
+  text-align: center;
+  font-family: FuturaBookC;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #363636;
+}
+
+.design--threecol {
+  margin-top: 48px;
+}
+
+.design--description {
+  top: 290px;
+  width: 330px;
+  padding-left: 35px;
+  padding-top: 4px;
+  padding-bottom: 42px;
+}
+
+.design--list_title {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #363636;
+  margin-bottom: 0;
+}
+
+.design--list {
+  padding: 0;
+  margin-top: 5px;
+  margin-left: 10px;
+  list-style: none;
+  text-align: left;
+  font-family: 'FuturaBookC';
+  font-size: 15px;
+  line-height: 25px;
+  color: #959595;
+}
+
+.design--list_item {
+  margin-bottom: 1.3px;
+}
+
+.design--button {
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+}
+
+.work {
+  background: pink;
+  padding: 0 101px 0 99px;
+}
+
+.work--title {
+  font-family: 'FuturaDemiC';
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.work--block1 {
+  width: 337px;
+}
+
+.work_list--number {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.work_list--title {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.work_list--text {
+  font-family: 'FuturaBookC';
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.work--block2 {
+  width: 765px;
+}
+
+.work--slider_heading {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.work_param {
+  width: 766px;
+  -ms-grid-columns: 33.3% 33.3% 33.3%;
+      grid-template-columns: 33.3% 33.3% 33.3%;
+  -ms-grid-rows: 86px 86px;
+      grid-template-rows: 86px 86px;
+}
+
+.work_param--heading {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.work_param--text {
+  font-family: 'FuturaBookC';
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: blue;
+  padding: 0 206px;
+  text-align: center;
+}
+
+.team--title::after {
+  content: url("assets/img/team-icon1.png");
+  display: block;
+}
+
+.team--description {
+  width: 233px;
+  text-align: center;
+}
+
+.team--list {
+  list-style: none;
+  padding: 0;
+  font-family: 'FuturaBookC';
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #959595;
+}
+
+.team--button {
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.team--text2::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 55px;
+  height: 2px;
+  background: #E3B873;
+}
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.slider--list {
+  padding: 0;
+  list-style: none;
+}
+
+.param_grid {
+  display: -ms-grid;
+  display: grid;
+  list-style: none;
+  padding: 0;
+}
+
+.param_grid--item {
+  opacity: 0.3;
+}
+
+.param_grid--item-active {
+  opacity: 1;
+}
+
+.param_grid--link {
+  text-decoration: none;
+}
+
+.clients {
+  background: yellow;
+}
+
+.clients--item {
+  background: pink;
+  width: 376px;
+  margin: 0 40px;
+}
+
+.clients--param {
+  background-color: #E3B873;
+  padding: 11px 17px;
+}
+
+.clients--param_img {
+  margin-right: 15.5px;
+  background: red;
+}
+
+.clients--param_text {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: red;
+}
+
+.clients--param_separator {
+  width: 1px;
+  background: transparent;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts--form {
+  padding: 34px 181px;
+  background-color: red;
+}
+
+.contacts--form_first_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 520px;
+}
+
+.contacts--name_input {
+  width: 231px;
+}
+
+.contacts--phone_input {
+  width: 231px;
+}
+
+.contacts--question_input {
+  width: 520px;
+  padding: 0;
+}
+
+.contacts--adress {
+  width: 590px;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.contacts--social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 71px;
+}
+
+.contacts--social_item {
+  position: relative;
+  display: block;
+  width: 28px;
+  height: 28px;
+  background-color: #E3B873;
+  border-radius: 50%;
+}
+
+.contacts--social_item:nth-child(1)::before {
+  content: url("assets/img/contacts-social-icon1.png");
+  position: absolute;
+  top: 7px;
+  left: 6px;
+}
+
+.contacts--social_item:nth-child(2)::before {
+  content: url("assets/img/contacts-social-icon2.png");
+  position: absolute;
+  top: 6px;
+  left: 8px;
+}
+
+.footer {
+  padding: 48px 92px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cards--heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards--image {
+  border-radius: 50%;
+}
+
+.cards--parametres {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards--param {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards--param_text {
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */

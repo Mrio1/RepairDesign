@@ -1,0 +1,1267 @@
+
+@import url("normolize.css");
+@import url("fonts.css");
+
+
+@mixin font($size, $height) {
+    font-size: $size;
+    line-height: $height;
+}
+
+
+.wrapper {
+    max-width: 1438px;
+    margin: 0 auto;
+
+}
+
+.header {
+    padding-left: 82px;
+    padding-right: 6.95%;
+    background-color: #000000;
+}
+
+    
+
+.main_navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    align-content: space-around;
+    align-items: center;
+    min-height: 83px;
+    text-transform: uppercase;
+    &--logo {
+        align-self: center;
+        font-family: 'FuturaDemiC';
+        @include font(14px, 16px);
+        text-decoration: none;
+        color: #E3B873;
+    }
+    &--list {
+        margin-left: 21px;
+        margin-top: 19px;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        min-width: 592px;
+        list-style: none;
+        @include font(14px, 16px);
+     
+    }
+    &--item {
+        display: inline-block;
+    }
+
+    &--link {
+        padding: 0 5px;
+        font-family: 'FuturaBookC';
+        font-size: 14px;
+        line-height: 16px;
+        color: #E3B873;
+        text-decoration: none;
+    }
+    &--call {
+        margin-top: 2px;
+        text-align: center;
+        letter-spacing: 0.5px;
+    }
+}
+
+.main_navigation_call {
+    &--link {
+        flex-grow: 1;
+        margin-right: 40px;
+        font-family: 'FuturaDemiC';
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        text-decoration-line: underline;
+
+        color: #E3B873;
+    }
+    &--button {
+        padding: 11px 33px;
+        @include font(13px, 15px);
+        font-family: 'FuturaDemiC';
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #E3B873;
+        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+        border-radius: 2px;
+        border-width: 0;
+    }
+}
+
+.service {
+    display: flex;
+    background-color: #000000;
+    &-insta_wrap {
+        width: 82px;
+        position: relative;
+
+    }
+    &-insta_link {
+        position: absolute;
+        transform: rotate(90deg);
+        @include font(14px, 16px);
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #E3B873;
+        top: 300px
+
+    }
+    &-inner {
+        position: relative;
+        flex-grow: 1;
+        padding: 194px 0 208px 60px;
+        background: url("assets/img/service-bg.jpg") no-repeat;
+        background-size: contain;
+        
+    }
+    &-title {
+        margin: 0;
+        width: 600px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 53px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &--city {
+        color: #E3B873;
+    }
+    &-text {
+        margin: 0;
+        margin-top: 12px ;
+        font-family: FuturaBookC;
+        font-size: 22px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+
+    }
+    
+    &--buttons {
+        margin-top: 47px;
+    }
+
+    &--button_type2 {
+        width: 207px;
+        height: 51px;
+        padding: 0;
+        background: #E3B873;
+        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+        border: 0;
+        border-radius: 2px;
+        font-family: 'FuturaDemiC';
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        @include font(13px, 15px);
+        color: #ffffff;
+        text-transform: uppercase;
+        &-transparent {
+            background: transparent;
+            border: 1px solid #FFFFFF;
+            box-sizing: border-box;
+            border-radius: 2px;
+        }
+        &:first-child {
+            margin-right: 16px;
+        }
+ 
+    }
+
+    .scroll_wrap {
+        position: absolute;
+        padding: 40px 96px 39px 48px;
+        background: #000000;
+        bottom: -49px;
+        left: -82px;
+    }
+    
+    .scroll_arrow {
+        position: relative;
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        color: #FFFFFF;
+        &::after {
+            content: url("assets/img/scroll-arrow-down.svg");
+            position: absolute;
+            right: -48px;
+            top: -5px
+        }
+    }
+}
+
+///second section
+
+.projects {
+    display: flex;
+    padding: 106px 0 52px 101px;
+    background-color: #000000;
+    &--block1 {
+        width: 440px;
+        padding-top: 70px;
+    }
+
+    &--title {
+        position: relative;
+        display: inline-block;
+        margin: 0;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 37px;
+        letter-spacing: -0.07em;
+        text-transform: uppercase;
+        color: #E3B873;
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            border-bottom: 1px solid #E3B873;
+            bottom: 20px;
+            width: 90px;
+            right: -100px;
+        }
+    }
+
+    &--description {
+        margin: 0;
+        margin-top: 21px;
+        font-family: 'FuturaBookC';
+        font-size: 18px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+
+    &--list {
+        padding: 0;
+        margin-top: 45px;
+    }
+
+    &--item {
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 190px 190px;
+        grid-template-rows: 107px 55px;
+        font-family: 'FuturaBookC';
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    &--param {
+        margin: 0;
+        margin-bottom: 37px;
+    }
+    
+    &--heading {
+        display: block;
+        margin-bottom: 6px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+    &--block2 {
+        margin-left: 52px;
+    }
+    &--pagination {
+        margin-top: 83px;
+    }
+}
+
+
+//// pagination-template//////////////////
+.pagination {
+    display: flex;
+    
+    &--link-circle {
+        display: block;
+        width: 10px;
+        height: 10px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        margin: 0 9px;
+    }
+    &--link-arrow_left {
+        margin-right: 21px;   
+    }
+    &--link-arrow_right {
+        margin-left: 21px;   
+    }
+    &--link-active {
+        background: #ffffff;
+    } 
+}
+////////////////////////////////////
+
+.examples {
+    &--list {
+        margin: 0;
+        padding: 0;
+    }
+    &--item {
+        display: inline-block;
+        margin-right: 58px;
+    }
+    &--link {
+        padding-bottom: 7px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.3);
+        &:hover {
+            color: #FFFFFF;
+            border-color: #FFFFFF;
+        }
+        &-active {
+            color: #E3B873;
+            border-bottom: 1px solid #E3B873;
+        }
+    }
+    &--gallery {
+        display: flex;
+        align-items: center;
+        margin-top: 35px;
+        &_arrow {
+            margin-left: 67px;
+            margin-bottom: 17px;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            background: url('assets/img/examples-gallery-right-arrow.png') no-repeat, #E3B873;
+            background-position: 23px 17px;
+            &:hover {
+                background-color: #e3b87399;
+            }
+        }
+    }
+}
+
+.gallery {
+    padding: 0;
+    list-style: none;
+}
+
+//end second section
+
+.online {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 130px;
+    background-image: linear-gradient(#000000 345px, #ffffff 345px) ;    
+    &--title {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &::after {
+            content: url("assets/img/online-icon.png");
+            display: block;
+            margin-top: 13px;
+            margin-bottom: 2px;
+        }
+    }
+    &--text {
+        font-family: 'FuturaBookC';
+        font-size: 20px;
+        line-height: 34px;
+        text-align: center;
+        color: #363636;
+
+        &::before {
+            content:"";
+            display: block;
+            margin: 42px auto 27px auto;
+            width: 55px;
+            border-top: 1.5px solid #E3B873;
+            
+        }
+    }
+    &--form {
+        width: 770px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 70px;
+        &_label {
+            padding-bottom: 8px;
+            border-bottom: 1px solid #3636364d;
+            box-sizing: border-box; 
+        }
+        &_submit {
+            margin-top: 8px;
+        }
+        &_checkbox {
+            margin: 0 auto;
+            margin-top: 17px;
+        }
+    }
+        
+    &--form_text_input {
+        width: 231px;
+        color: #000000;
+    } 
+}
+
+
+////!!!!! FORM - template
+
+    .form {
+        align-items: center;
+        &--header {
+            margin: 0;
+        }
+        &--label-border {
+            padding-bottom: 8px;
+            border-bottom: 1px solid #3636364d;
+        }
+            &_checkbox {
+                margin: 0 auto;
+            }
+            &_checkbox span {
+                display: inline-block;
+                text-align: center;
+            }   
+        &--text_input {
+            display: block;
+            background-color: transparent;
+            padding: 0;
+            border: 0;
+            &::placeholder {
+                font-family: 'FuturaBookC';
+                font-size: 18px;
+                line-height: 24px; 
+            }   
+        }
+        &--submit {
+            //align-self: center;
+            font-family: 'FuturaDemiC';
+            font-size: 15px;
+            line-height: 26px;
+            padding: 13px 75px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background: #E3B873;
+            border: 0;
+            box-shadow: 0px 15px 15px #e3b87326;
+            border-radius: 2px;
+            
+        }
+
+        &--checkbox_label {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-top: 35px;
+        }
+        &--checkbox {
+            width: 0;
+            position: relative;
+            & span {
+                color: #000000;
+            }
+            &:checked::after {
+                content: url("assets/img/form-checked-icon.svg");
+                position: absolute;
+                top: 0px;
+                left: -21px;
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                display: block;
+                top: 0px;
+                left: -25px;
+                width: 18px;
+                height: 18px;
+                background: #E3B873;
+                border-radius: 1px;
+            }
+        }
+    }
+
+
+   
+
+
+    //types of repair
+    /////TRECOL-template
+    .threecol {
+        display: flex;
+        justify-content: space-between;
+        align-content: top;
+        flex-wrap: wrap;
+        text-align: center;
+        &--item {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            margin: 0 auto;
+        }
+        &--description {
+            position: absolute;
+            margin: 0 auto;
+            box-sizing: border-box;
+            background-color: #FFFFFF;  
+            text-align: left;
+        }
+        &--title {
+            margin: 0;
+        }
+        &--button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 228px;
+            height: 54px;
+            position: relative;
+            background: #E3B873;
+            box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.1);
+            font-family: 'Yeseva One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            text-decoration: none;
+            &:hover {
+                color: #000000;
+            }
+        }
+    }
+
+
+    .types {
+        padding: 0 85px 200px 85px;
+        &--title {
+            padding-top: 0px;
+            text-align: center;
+            font-family: 'Yeseva One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #181818;
+            &::after {
+                content: url("assets/img/rep-types-icon.png");
+                display: block;
+                margin-top: 15px;
+            }
+        }
+        &--threecol {
+            margin-top: 25px;
+            &_title {
+                font-family: 'Yeseva One';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 25px;
+                color: #363636;
+            }
+        }
+        &--description {
+            width: 330px;
+            top: 295px;
+            padding: 22px 33px 0 33px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.031);
+        }
+
+        &--list {
+            padding-left: 16px;
+            margin-top: 6px;
+            margin-bottom: 0;
+            font-family: 'FuturaBookC';
+            font-size: 15px;
+            line-height: 26px;
+            color: #959595;
+            list-style: none;
+            &_item {
+                position: relative;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    width: 4px;
+                    height: 4px;
+                    left: -13px;
+                    top: 10px;
+                    background-color: #959595;
+                    border: 1px solid #959595;
+                    border-radius: 50%;
+                }
+            }
+        }
+        &--button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 228px;
+            height: 54px;
+            top: 29px;
+            left: -33px;
+            font-family: 'Yeseva One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background: #E3B873;
+            box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+            text-decoration: none;
+            &:hover {
+                color: #000000;
+            }
+        }
+    }
+
+
+////// prepare section
+    .prerep {
+        display: flex;
+        justify-content: space-between;
+        background: #FFFFFF;
+        padding: 100px 100px 92px 0;
+        &--save {
+            display: inline-block;
+            width: 350px;
+            margin-top: 28px;
+            margin-left: 12px;
+            font-family: 'FuturaDemiC';
+            font-size: 20px;
+            line-height: 25px;
+            color: #E3B873;
+            text-shadow: 0px 3px 10px #e3b87326;
+            &::before {
+                content: url('assets/img/prerep-save-icon.png');
+                float: left;
+                margin-right: 5px;
+            }
+        }
+    }
+    .form_prerep {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 118px;
+        padding: 5px 49px 27px 49px;
+        background: #131313;
+        box-shadow: 0px 30px 30px #0000000d;
+        &--title {
+            display: block;
+            width: 293px;
+            font-family: 'FuturaDemiC';
+            font-size: 20px;
+            line-height: 25px;
+            align-self: center;
+            text-align: center;
+            color: #FFFFFF;  
+        }
+        &--label {
+            margin-top: 45px;
+        }
+        &--label:nth-child(2) {
+            margin-top: 18px;
+        }
+        &--label:nth-child(5) {
+            margin-top: 18px;
+            margin-left: 25px;
+            color: #ffffff;
+        }
+        &--span {
+            font-family: 'FuturaBookC';
+            font-size: 15px;
+            line-height: 20px;
+            color: rgba(255, 255, 255, 0.5);
+
+        }
+        &--text {
+            width: 408px;
+            font-family: 'FuturaMediumC';
+            font-size: 18px;
+            line-height: 25px;
+            color: #FFFFFF;
+            &::placeholder {
+                color: #ffffff;
+            }
+        }
+        &--submit {
+            align-self: flex-end;
+            width: 213px;
+            height: 51px;
+            margin-top: 39px;
+            background: #E3B873;
+            box-shadow: 0px 5px 15px #e3b87326;
+            border: 0;
+            font-family: 'FuturaDemiC';
+            font-size: 13px;
+            line-height: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            &:hover {
+                color: #000000;
+            }
+        }
+    }
+
+
+
+    .proposal {
+        min-height: 745px;
+        padding: 0px 0px 20px 150px;
+        background: url("assets/img/measure-bg.png") no-repeat;
+        background-position-y: 12px;
+        &--item {
+            position: relative;
+            margin-left: 265px;
+            letter-spacing: 0.7px;
+            &:nth-child(1) {
+                top: 130px;
+                &::before {
+                    top: 0px;
+                    left: -60px;
+                }
+                &::after {
+                    content: "01";
+                    top: 8px;
+                }
+            }
+            &:nth-child(2) {
+               top: 213px;
+               left: 75px;
+               &::before {
+                    top: -9px;
+                    left: -60px;
+                }
+                &::after {
+                    content: "02";
+                    top: 0px
+                }
+            }
+            &:nth-child(3) {
+                top: 358px;
+                left: 98px;
+                &::before {
+                    top: -10px;
+                    left: -58px;
+                }
+                &::after {
+                    content: "03";
+                    top: 0px
+                }
+            }
+            &:nth-child(4) {
+                top: 490px;
+                left: 32px;
+                &::before {
+                    top: 0px;
+                    left: -58px;
+                }
+                &::after {
+                    content: "04";
+                    top: 8px
+                }
+            }
+            &::before {
+                content:"";
+                position: absolute;
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+                background-color: #E3B873;
+            }
+
+            &::after {
+                position: absolute;
+                font-family: 'Yeseva One';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 25px;
+                text-align: center;
+                color: #FFFFFF;
+                left: -50px;
+            }
+            
+        }
+
+    }
+
+/// STYLES-section
+
+.styles {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 102px 0 99px;
+    color: white;
+    background: linear-gradient(white 0px,white 112px, rgba(0, 0, 0, 0.75) 112px, rgba(0, 0, 0, 0.9) 976px, white 976px, white 1075px), url("assets/img/styles-bg.jpg") no-repeat;
+    background-position: 0, 0 113px;
+    &--title {
+        margin-top: 250px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 37px;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+    &--list {
+        margin-top: 40px;
+        padding: 0;
+        list-style: none;    
+    }
+    &--item {
+        margin-bottom: 22px;
+        font-family: 'Proxima Nova';
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+  
+    }
+    &--link {
+        color: #FFFFFF;
+        text-decoration: none;
+        display: inline-block;
+        padding-bottom: 5px;
+        box-sizing: border-box;
+        
+        &:hover {
+            color: #E3B873;
+        }
+        &-active {
+            color: #E3B873;
+            border-bottom: 1px solid #E3B873;
+            
+        }
+    }
+
+    &--gallery {
+        width: 752px;
+    }
+    &--block {
+        &-first {
+            height: 947px;
+            padding-top: 70px
+        }
+        &-second {
+            height: 940px;
+        }
+    }
+}
+
+
+    ////GALLERY-template
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    &--block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+    ///DESIGN-section
+
+.design {
+    padding: 95px 88px 265px;
+    background: yellowgreen;
+    &--title {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #181818;
+            &::after {
+                content: url("assets/img/design-icon.png");
+                display: block;
+                margin-top: 10px;
+            }
+    }
+    &--text {
+        margin-top: 15px;
+        text-align: center;
+        font-family: FuturaBookC;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        color: #363636;
+    }
+    &--threecol {
+        margin-top: 48px;
+        
+    }
+    &--description {
+        top: 290px;
+        width: 330px;
+        padding-left: 35px;
+        padding-top: 4px;
+        padding-bottom: 42px;
+        
+    }
+    &--list_title {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        color: #363636;
+        margin-bottom: 0;
+    }
+    &--list {
+        padding: 0;
+        margin-top: 5px;
+        margin-left: 10px;
+        list-style: none;
+        text-align: left;
+        font-family: 'FuturaBookC';
+        font-size: 15px;
+        line-height: 25px;
+        color: #959595;
+    }
+    &--list_item {
+        margin-bottom: 1.3px;
+    }
+    &--button {
+        position: absolute;
+        bottom: -27px;
+        left: 0;
+    }
+}
+    
+
+    ////WORK-section
+.work {
+    background: pink;
+    padding: 0 101px 0 99px;
+    &--title {
+        font-family: 'FuturaDemiC';
+        font-size: 15px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &--block1 {
+        width: 337px;
+    }
+    &_list {
+        &--number {
+            font-family: 'Yeseva One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+        }
+        &--title {
+            font-family: 'Yeseva One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 23px;
+            text-transform: uppercase;
+
+            color: #E3B873;
+        }
+        &--text{
+            font-family: 'FuturaBookC';
+            font-size: 15px;
+            line-height: 25px;
+
+            color: #FFFFFF
+        }
+    }
+    &--block2 {
+        width: 765px;
+    }
+    &--slider_heading {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 37px;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+    &_param{
+        width: 766px;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-template-rows: 86px 86px;
+        &--heading {
+            font-family: 'Yeseva One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &--text {
+            font-family: 'FuturaBookC';
+            font-size: 15px;
+            line-height: 18px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+
+//////TEAM-section
+.team {
+    display: flex;
+    flex-direction: column;
+    
+    background: blue;
+    padding: 0 206px;
+    text-align: center;
+    &--title {
+
+        &::after {
+            content: url("assets/img/team-icon1.png");
+            display: block;
+        }
+    }
+    
+    &--description {
+        width: 233px;
+        text-align: center;
+    }
+    &--list {
+        list-style: none;
+        padding: 0;
+        font-family: 'FuturaBookC';
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+
+        color: #959595;
+        
+    }
+    &--button {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+    &--text2 {
+        &::after {
+            content:"";
+            display: block;
+            margin: 0 auto;
+            width: 55px;
+            height: 2px;
+            background: #E3B873;
+        }
+    }
+}
+
+////////SLIDER
+.slider {
+    display: flex;
+    justify-content: space-between;
+        &--list {
+            padding:0;
+            list-style: none;
+    }
+}
+
+///////PARAM_GRID template
+.param_grid {
+    display: grid;
+    list-style: none;
+    padding: 0;
+    
+    &--item {
+        opacity: 0.3;
+
+        &-active {
+            opacity: 1;
+        }
+    }
+    &--link {
+        text-decoration: none;
+    }
+}
+////////////////////
+//////CLIENTS-section
+.clients {
+    background: yellow;
+    &--item {
+        background: pink;
+        width: 376px;
+        margin: 0 40px;
+    }
+
+    &--param {
+        background-color: #E3B873;
+        padding: 11px 17px; 
+    }
+    &--param_img {
+        margin-right: 15.5px;
+        background: red;
+    }
+    &--param_text {
+        
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 24px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+        background: red;
+    }
+    
+    &--param_separator {
+        width: 1px;
+        background: transparent;
+        
+    }  
+}
+
+
+/////CONTACTS section
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &--form {
+        padding: 34px 181px;
+        //background-color: #181818;
+        background-color: red;
+        &_first_row {
+            display: flex;
+            justify-content: space-between;
+            width: 520px;
+        }
+    }
+
+    &--name_input {
+        width: 231px;
+    }
+    &--phone_input {
+        width: 231px;
+    }
+    &--question_input {
+        width: 520px;
+        padding: 0;
+    }
+    &--adress {
+        width: 590px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+    &--social {
+        display: flex;
+        justify-content: space-between;
+        width: 71px;
+        &_item {
+            position: relative;
+            display: block;
+            width: 28px;
+            height: 28px;
+            background-color: #E3B873;
+            border-radius: 50%;
+            &:nth-child(1) {
+                &::before {
+                    content: url('assets/img/contacts-social-icon1.png');
+                    position: absolute;
+                    top: 7px;
+                    left: 6px;
+                }
+            }
+            &:nth-child(2) {
+                &::before {
+                    content: url('assets/img/contacts-social-icon2.png');
+                    position: absolute;
+                    top: 6px;
+                    left: 8px;
+                }
+            }
+        }
+        
+    }
+}
+
+.footer {
+    padding: 48px 92px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    &--heading {
+        display: flex;    
+    }
+    &--image {
+        border-radius: 50%;
+    }
+    &--parametres {
+        display: flex;
+    }
+    &--param {
+        display: flex;
+        align-items: center;
+    }
+    &--param_text {
+        margin: 0;
+    }
+}
